@@ -38,10 +38,70 @@
             height: 1000px;
             align-items: center;
         }
+        .row3
+        {
+            display: flex;
+            background-color: beige;
+            justify-content: space-around;
+            padding: 20px;
+            height: 1000px;
+            align-items: center;
+        }
+        .row4
+        {
+            display: flex;
+            background-color: rgb(193, 193, 123);
+            justify-content: space-around;
+            padding: 20px;
+            height: 1000px;
+            align-items: center;
+        }
+        .row5
+        {
+            display: flex;
+            background-color: beige;
+            justify-content: space-around;
+            padding: 20px;
+            height: 1000px;
+            align-items: center;
+        }
+        .footer
+        {
+            background-color: black;
+            color: aliceblue;
+        }
         .box
         {
            
             padding: 10px;
+        }
+        .box1
+        {   
+            background-color: white;
+            color: black;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        li
+        {
+            display: inline;
+            padding: 5px;
+            font-size: larger;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+        a:hover
+        {
+            background-color: whitesmoke; 
+            text-decoration: antiquewhite;
+            font-style: italic;
+        }
+        .imgclass
+        {
+            border-radius: 200px;
         }
     </style>
 </head>
@@ -49,14 +109,22 @@
     <div class="container"> 
         <div class="row">
             <div class="box"> <h1> Varshini </h1> </div>
-            <div class="box"> <a href="#home"> Home </a> | <a href="#projects"> Projects </a> | <a href="#"> About </a> | <a href="#"> Contact </a></div>
+            <div class="box"> 
+                <ul>
+                    <li> <a href="#home"> Home </a> </li>
+                    <li> <a href="#projects"> Projects </a> </li>
+                    <li> <a href="#about"> About </a> </li>
+                    <li> <a href="#services"> Services </a> </li>
+                    <li> <a href="#contact"> Contact </a> </li>
+                </ul>
+            </div>
         </div>
         <div class="row1" id="home">
             <div> 
                 <h2>Varshini</h3>
                 <h2> I'm a web developer </h6>
             </div>
-            <div> <img src="https://picsum.photos/id/77/450/300"> </div>
+            <div> <img class="imgclass" src="https://picsum.photos/id/77/450/300"> </div>
         </div>
         <div class="row2" id="projects">
             <div> 
@@ -67,7 +135,52 @@
                 </ol>
             </div>
         </div>
+        <div class="row3" id="about">
+            <div> 
+                <h2>About</h2>
+                <ol> 
+                    <li> Technologies and tools </li>
+                </ol>
+            </div>
+        </div>
+        <h1> Services </h1>
+        <div class="row4" id="services">
+                    <div class="box1"> 
+                        <h3>Web App Development</h3>
+                        <p> 
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae doloribus omnis quo id, eos, veniam placeat facilis vel iusto tenetur enim? Vero optio aliquam consequuntur dignissimos voluptatum nisi pariatur facilis.
+                        </p>
+                    </div>
+
+                    <div class="box1">
+                        <h3>Mobile App Development</h3> 
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, sed aut excepturi expedita accusantium nisi. Praesentium tenetur unde excepturi error quaerat autem laudantium, distinctio nostrum mollitia vitae sunt temporibus libero!
+                        </p>
+                    </div>
+
+                    <div class="box1"> 
+                        <h3>Backend Development</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae iusto dolorum tempore, totam exercitationem maiores dignissimos animi quo nemo reprehenderit delectus, vero eos at dolorem. Quos corporis ducimus minima temporibus!
+                        </p>
+                    </div>
+            
+        </div>
+        <div class="row5" id="contact">
+            <div> 
+                <h2>Contact</h2>
+                <ol> 
+                    <li> Email </li>
+                    <li> Telephone number </li>
+                </ol>
+            </div>
+        </div>
+        <div class="footer">
+            <h4> @copyright 2024. All the rights reserved. </h4>
+        </div>
     </div>
+
     <!--<h1> Varshini </h1>
     <li><a href="index.html"> Home </a></li>
     <li><a href="index.html"> Projects </a></li>
