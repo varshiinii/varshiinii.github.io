@@ -1,0 +1,102 @@
+
+*
+        {
+            margin: 0px;
+        }
+        .container
+        {
+            background-color: beige;
+        }
+        .row
+        {
+            background-color: rgb(140, 52, 52);
+           
+            display: flex;
+            justify-content: space-between;
+            position: sticky;
+            top: 0px;
+        }
+        .row1
+        {
+            display: flex;
+            
+            justify-content: space-around;
+            padding: 20px;
+            height: 800px;
+            align-items: center;
+        }
+        .row2
+        {
+            display: flex;
+            background-color: rgb(193, 193, 123);
+            justify-content: space-around;
+            padding: 20px;
+            height: 1000px;
+            align-items: center;
+        }
+        .row3
+        {
+            display: flex;
+            background-color: beige;
+            justify-content: space-around;
+            padding: 20px;
+            height: 1000px;
+            align-items: center;
+        }
+        .row4
+        {
+            display: flex;
+            background-color: rgb(193, 193, 123);
+            justify-content: space-around;
+            padding: 20px;
+            height: 1000px;
+            align-items: center;
+        }
+        .row5
+        {
+            display: flex;
+            background-color: beige;
+            justify-content: space-around;
+            padding: 20px;
+            height: 1000px;
+            align-items: center;
+        }
+        .footer
+        {
+            background-color: black;
+            color: aliceblue;
+        }
+        .box
+        {
+           
+            padding: 10px;
+        }
+        .box1
+        {   
+            background-color: white;
+            color: black;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        li
+        {
+            display: inline;
+            padding: 5px;
+            font-size: larger;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+        a:hover
+        {
+            background-color: whitesmoke; 
+            text-decoration: antiquewhite;
+            font-style: italic;
+        }
+        .imgclass
+        {
+            border-radius: 200px;
+        }
+        
